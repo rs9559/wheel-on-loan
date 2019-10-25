@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Applicant Details</title>
+<link rel="stylesheet" href="emi.css" type="text/css" /> 
+        <script type="text/javascript" src="emi.js"></script>
+<style>
+	#client,#settings,#applications,#rejectedlist,#dashboard {
+  
+  border: none;
+  color: white;
+  padding-bottom: 40px ;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+}
+#logout{
+	float: right;
+}
+div.scrollmenu {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	  border-radius: 5px;
+	
+  }
+</style>
+
+</head>
+<body>
+<div>
+
+	<div class="scrollmenu">
+		<a href="#home" ><h1><center>WHEEL ON LOAN</a></center></h1>
+		<input type="button" value="LOGOUT" id="logout" name="logout"/>
+	   
+</div>   
+	<center><h2> Admin Dashboard</h2></center>
+		<form method=post id="myForm" >
+			
+					<input type="button" value="CLIENT" id="client" name="Clients"   />
+					<input type="button" value="SETTINGS" id="settings" name="Settings"   />
+					<br>
+					<br>
+					<input type="button" value="APPLICATIONS" id="applications" name="applications"  /><br>
+					<br>
+					<br>
+					<input type="button" value="REJECTED LIST" id="rejectedlist" name="rejectedlist"   /><br>
+					<br>
+					<br>
+					<input type="button" value="DASHBOARD" id="dashboard" name="dashboard"  />
+					<br>
+					<br>
+					
+					
+			</form>
+	
+</div>
+</body>
+</html>
